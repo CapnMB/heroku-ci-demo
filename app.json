@@ -1,18 +1,15 @@
 {
-    "scripts": {
-      "test": "pip install -r requirements.txt && pytest"
-    },
-    "environments": {
-      "test": {
-        "formation": {
-          "test": {
-            "quantity": 1,
-            "size": "standard-1x"
-          }
-        },
-        "scripts": {
-          "test": "pytest"
+  "environments": {
+    "test": {
+      "formation": {
+        "test": {
+          "quantity": 1,
+          "size": "standard-1x"
         }
+      },
+      "scripts": {
+        "test": "pytest"
       }
     }
   }
+}
