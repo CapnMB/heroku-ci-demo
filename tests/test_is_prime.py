@@ -24,5 +24,11 @@ def test_993_is_not_prime():
 def test_7873_is_prime():
     assert is_prime(7873)
 
+def test_7909_is_not_prime():
+    assert not is_prime(7909)
+
+def test_7802143_is_not_prime():
+    assert not is_prime(7802143)
+
 def test_7802143_is_not_prime():
     assert not is_prime(7802143)
